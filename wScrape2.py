@@ -12,7 +12,5 @@ email_pattern = re.compile("[-a-zA-z0-9._]+@[-a-zA-z0-9._]+.[-a-zA-z0-9._]")
 
 emails =re.findall(email_pattern, the_page)
 
-with open('readme.txt', 'w') as f:
-    f.write(the_page)
 print(emails)
 
