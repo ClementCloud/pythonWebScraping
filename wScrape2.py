@@ -2,7 +2,7 @@ import urllib.request
 import re
 import sys
 
-web_page = 'https://www.randomlists.com/email-addresses'
+web_page = ''
 
 with urllib.request.urlopen(web_page) as response:
     page_bytes = response.read()
